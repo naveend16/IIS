@@ -4,11 +4,12 @@
   "description": "Installs webserver IIS",
   "tags": [
     "Windows",
+    "server manager",
     "Webserver IIS"
   ],
   
   "targetOsType": "Windows",
   "runCommand": {
-    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./IIS.ps1)]"
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./IIS.ps1 ', 'Webserver IIS', '\"')]"
   }
 }
