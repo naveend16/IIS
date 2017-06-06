@@ -4,7 +4,6 @@
   "description": "Installs webserver IIS",
   "tags": [
     "Windows",
-    "servermanager",
     "Webserver IIS"
   ],
   
